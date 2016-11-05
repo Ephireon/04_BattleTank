@@ -29,10 +29,3 @@ void ATankAIController::Tick(float DeltaTime)
 		ControlledTank->Fire(); //TODO limit firing rate
 	}
 }
-
-ATank* ATankAIController::GetControlledTank() const
-{
-	return Cast<ATank>(GetPawn());
-}
-
-

@@ -38,7 +38,7 @@ void ATank::BeginPlay()
 
 
 // Called to bind functionality to input
-void ATank::SetupPlayerInputComponent(class UInputComponent* InputComponent)
+void ATank::SetupPlayerInputComponent(class UInputComponent* inputComponent)
 {
 	Super::SetupPlayerInputComponent(InputComponent);
 
